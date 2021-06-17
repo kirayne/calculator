@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.numbers{
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    margin: 8px;
+    border-radius: 9px;
+}
+
+.numbersContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.operators{
+    height: 40px;
+    width: 60px;
+    border-radius:30%;
+    border: 1px solid;
+    margin: 6px;
+   display: grid;
+   align-items: center;
+   font-size: 23px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row; 
+    width:auto;
+}
+
+.display{
+    background-color: rgb(235, 235, 235);
+    border-radius: 8px;
+    height: 100px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin-top:100px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+
+#decimal{
+    font-size: 30px;
+}
+
+#del{
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    margin: 8px;
+    border-radius: 9px;
+    font-size: 15.333px;
+}
