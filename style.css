@@ -37,6 +37,9 @@ body{
     background-color: rgb(235, 235, 235);
     border-radius: 8px;
     height: 100px;
+    font-size: 40px;
+    text-align: right;
+    line-height: 100px;
 }
 
 .calculator{
@@ -59,4 +62,26 @@ body{
     margin: 8px;
     border-radius: 9px;
     font-size: 15.333px;
+}
+
+#operate{
+    height: 40px;
+    width: 60px;
+    border-radius:30%;
+    border: 1px solid;
+    margin: 6px;
+   display: grid;
+   align-items: center;
+   font-size: 23px;
+}
+
+#clear{
+    height: 40px;
+    width: 60px;
+    border-radius:30%;
+    border: 1px solid;
+    margin: 6px;
+   display: grid;
+   align-items: center;
+   font-size: 23px;
 }
